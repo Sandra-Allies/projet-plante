@@ -1,8 +1,12 @@
 import './App.css';
+import PlantList from './Components/PlantList/PlantList';
 
 function App() {
   return (
-  <h1>Les plantes verte de couleur verte</h1>
-)}
+    <div className="App">
+      <PlantList />
+    </div>
+  )
+}
 
 export default App;
