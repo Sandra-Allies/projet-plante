@@ -9,28 +9,35 @@ form {
   max-width: 500px;
   align-items: center;
 }
+
+form a {
+  margin-bottom: 5px;
+}
+
+label {
+  font-weight: 500;
+}
+
 .inputs {
   margin-bottom: 0.5em;
 }
 #checkBoxBlock {
   display: flex;
   flex-direction: column;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-right: 7em;
+  margin: 1em 7em 1em 1em;
 }
 .checkB {
   margin-bottom: 0.5em;
 }
-#newsletter{
-    display: flex;
-    flex-direction: row;
+#newsletter {
+  display: flex;
 }
-#rules{
-    display: flex;
-    flex-direction: row;
+#rules {
+  display: flex;
+  cursor: pointer;
 }
-#submit{
-    padding-left: 4em;
-    padding-right: 4em;
+
+#submit {
+  padding-left: 5em;
+  padding-right: 5em;
 }

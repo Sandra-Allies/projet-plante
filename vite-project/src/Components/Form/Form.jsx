@@ -1,8 +1,18 @@
-import React from "react";
-import style from "./Form.css";
-import LoremIpsum from "./LoremIpsum";
+import './Form.css'
+import Popup from './Popup'
+import { useState } from 'react'
 
 const Form = () => {
+  const [showPopup, setShowPopup] = useState(false)
+
+  const handleCheckboxClick = () => {
+    setShowPopup(!showPopup)
+  }
+
+  const handleClosePopup = () => {
+    setShowPopup(false)
+  }
+
   return (
     <>
       <div>
@@ -25,7 +35,7 @@ const Form = () => {
             type="password"
             className="inputs"
             id="pass"
-            minlength="6"
+            minLength="6"
             placeholder="Password"
             required
           />
@@ -39,18 +49,19 @@ const Form = () => {
           <div id="checkBoxBlock">
             <div id="newsletter">
               <input className="checkB" name="newsletter" type="checkbox" />
-              <label for="newsletter">NEWSLETTER</label>
+              <label htmlFor="newsletter">Newsletter</label>
             </div>
             <div id="rules">
               <input className="checkB" name="rules" type="checkbox" />
-              <label for="rules">RULES</label>
+              <a onClick={handleCheckboxClick}>Rules</a>
             </div>
           </div>
           <input type="submit" className="inputs" id="submit" value="Sign in" />
         </form>
       </div>
+      <Popup handleClose={handleClosePopup} show={showPopup} />
     </>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form
