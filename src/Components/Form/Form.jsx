@@ -1,6 +1,4 @@
 import React from "react";
-import style from "./Form.css";
-import LoremIpsum from "./LoremIpsum";
 
 const Form = () => {
   return (
@@ -25,7 +23,6 @@ const Form = () => {
             type="password"
             className="inputs"
             id="pass"
-            minlength="6"
             placeholder="Password"
             required
           />
@@ -39,11 +36,11 @@ const Form = () => {
           <div id="checkBoxBlock">
             <div id="newsletter">
               <input className="checkB" name="newsletter" type="checkbox" />
-              <label for="newsletter">NEWSLETTER</label>
+              <label>NEWSLETTER</label>
             </div>
             <div id="rules">
               <input className="checkB" name="rules" type="checkbox" />
-              <label for="rules">RULES</label>
+              <label>RULES</label>
             </div>
           </div>
           <input type="submit" className="inputs" id="submit" value="Sign in" />
