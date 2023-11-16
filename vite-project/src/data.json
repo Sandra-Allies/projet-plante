@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "picture": "https://www.botanic.com/Media/Produits/Images/4/415677.jpg",
+            "name": "Sédum burrito",
+            "origine": "Honduras, Mexique",
+            "arrosage": "Le substrat doit rester humide pendant deux jours, le temps que votre succulente stocke l'eau. Disposez votre Sedum burrito dans son pot dans votre évier ou dans un récipient, comme une bassine ou une terrine. Arrosez la terre jusqu'à ce que l'eau commence à s'écouler dans le contenant.",
+            "tmini": "13°",
+            "tmaxi": "25°"
+        },
+        {
+            "id": "2",
+            "picture": "https://cdn.123plantesdinterieur.fr/media/catalog/product/cache/7e47a816da2f8f1d082e569b4e2be5e7/c/r/crassula_coral.webp",
+            "name": "Crassula ovata Horn Tree",
+            "origine": "Afrique du Sud",
+            "arrosage": "",
+            "tmini": "",
+            "tmaxi": ""
+        },
+        {
+            "id": "3",
+            "picture": "",
+            "name": "",
+            "origine": "",
+            "arrosage": "",
+            "tmini": "",
+            "tmaxi": ""
+        },
+        {
+            "id": "4",
+            "picture": "",
+            "name": "",
+            "origine": "",
+            "arrosage": "",
+            "tmini": "",
+            "tmaxi": ""
+        },
+        {
+            "id": "5",
+            "picture": "",
+            "name": "",
+            "origine": "",
+            "arrosage": "",
+            "tmini": "",
+            "tmaxi": ""
+        },
+        {
+            "id": "6",
+            "picture": "",
+            "name": "",
+            "origine": "",
+            "arrosage": "",
+            "tmini": "",
+            "tmaxi": ""
+        }
+    ]
+}
