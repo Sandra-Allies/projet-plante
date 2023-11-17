@@ -1,9 +1,10 @@
 
 .plantList {
+  width: 100%;
 
   &-container {
     width: calc(33% - 30px);
-    height: 500px;
+    min-height: 550px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -17,8 +18,8 @@
     border-radius: 10px;
     position: absolute;
     border: black solid 2px;
-    z-index: 10;
     overflow: hidden;
+    z-index: 10;
 
     img {
       width: 100%;
@@ -29,7 +30,8 @@
 
   &-box {
     width: 100%;
-    height: auto;
+    // height: 450px;
+    overflow-y: auto;
     border-radius: 10px;
     background-color: whitesmoke;
     box-shadow: 0 0 10px grey;

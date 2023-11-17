@@ -1,0 +1,59 @@
+const data = [
+        {
+            "id": "1",
+            "picture": "https://www.botanic.com/Media/Produits/Images/4/415677.jpg",
+            "name": "Sédum burrito",
+            "origine": "Honduras, Mexique",
+            "arrosage": "Le substrat doit rester humide pendant deux jours, le temps que votre succulente stocke l'eau. Disposez votre Sedum burrito dans son pot dans votre évier ou dans un récipient, comme une bassine ou une terrine. Arrosez la terre jusqu'à ce que l'eau commence à s'écouler dans le contenant.",
+            "tmini": "13°",
+            "tmaxi": "25°"
+        },
+        {
+            "id": "2",
+            "picture": "https://cdn.123plantesdinterieur.fr/media/catalog/product/cache/7e47a816da2f8f1d082e569b4e2be5e7/c/r/crassula_coral.webp",
+            "name": "Crassula ovata Horn Tree",
+            "origine": "Afrique du Sud",
+            "arrosage": "Le Crassula supporte facilement plusieurs semaines sans arrosage. - Hiver : un arrosage léger 1 fois par mois. - Printemps / Automne : 1 à 2 arrosages tous les 15 jours. - Été : 1 arrosage par semaine, lorsque le sol est bien sec",
+            "tmini": "15°",
+            "tmaxi": "24°"
+        },
+        {
+            "id": "3",
+            "picture": "https://i.etsystatic.com/6392494/r/il/0babf0/5001184087/il_fullxfull.5001184087_topq.jpg",
+            "name": "Corpuscularia lehmannii",
+            "origine": "Afrique du Sud",
+            "arrosage": "Arrosage : Arrosages réguliers de mars à octobre. Diminuer progressivement les arrosages à l'automne pour arroser une fois par mois en hiver",
+            "tmini": "-3°",
+            "tmaxi": "25°"
+        },
+        {
+            "id": "4",
+            "picture": "https://www.studioplant.com/media/catalog/product/cache/14fa58571d4bb11e213223dac531e357/d/g/dg26-1.jpg",
+            "name": "Chlorophyton chevelu",
+            "origine": "Afrique du Sud",
+            "arrosage": "Préférez un arrosage régulier et modéré en été (2 fois par semaine) et espacez l'arrosage en hiver. Ces épaisses racines retiennent l'eau, votre chlorophytum résistera plus à un manque d'eau qu'à un excès d'eau qui risquerait de faire pourrir ses racines.",
+            "tmini": "10°",
+            "tmaxi": "30°"
+        },
+        {
+            "id": "5",
+            "picture": "https://www.terrelointaine.fr/1251-large_default/agave-attenuata.jpg",
+            "name": "Agave",
+            "origine": "Mexique, du sud des États-Unis et des Antilles",
+            "arrosage": "- Hiver : un arrosage léger 1 fois par mois. - Printemps /Automne : 1 à 2 arrosages tous les 15 jours. - Été : 1 arrosage par semaine ou toutes les deux semaines, lorsque le sol est bien sec",
+            "tmini": "-10°",
+            "tmaxi": "Non connu"
+        },
+        {
+            "id": "6",
+            "picture": "https://www.lavande-aop-bio.fr/549-large_default/bouquet-de-lavande-bio.jpg",
+            "name": "Lavende",
+            "origine": "Perse",
+            "arrosage": "Il s'agit d'une plante de terre caillouteuse et ensoleillée mais en pot, elle demandera tout de même un arrosage modéré mais régulier. Attendez que le substrat sèche en profondeur, sur la hauteur d'un doigt à peu près, entre deux arrosages.",
+            "tmini": "-12°",
+            "tmaxi": "30°"
+        }
+    ]
+
+    export default data
+    

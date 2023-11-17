@@ -1,27 +1,26 @@
 import './PlantList.scss';
-import Data from '../../data.json';
 import { Icon } from '@iconify/react';
 
-function PlantList() {
-  // console.log(Data.data[0]);
+function PlantList({ image, nom, origine, arrosage, tmini, tmaxi }) {
+
   return (
     <div className="plantList-container">
-      <div className="plantList-picture"><img src={Data.data[5].picture} /> </div>
+      <div className="plantList-picture"><img src={image} /> </div>
       <div className="plantList-box">
-        <h1>{Data.data[5].name}</h1>
+        <h1>{nom}</h1>
         <p>
           <li className="plantList-texte">
-            <strong>Origine de la plante :</strong> {Data.data[5].origine}</li>
+            <strong>Origine de la plante :</strong> {origine}</li>
           <li className="plantList-texte">
-            <strong>Arrosage :</strong> {Data.data[5].arrosage}</li>
+            <strong>Arrosage :</strong> {arrosage}</li>
           <li className="plantList-icon">
-            <Icon icon="mingcute:low-temperature-line" /> : {Data.data[5].tmini}</li>
+            <Icon icon="mingcute:low-temperature-line" /> : {tmini}</li>
           <li className="plantList-icon">
-            <Icon icon="carbon:temperature-hot" /> : {Data.data[5].tmaxi}</li>
+            <Icon icon="carbon:temperature-hot" /> : {tmaxi}</li>
         </p>
       </div>
     </div>
-  )
+  );
 }
 
 export default PlantList;
