@@ -1,4 +1,4 @@
-import './Popup.css'
+import './Popup.scss'
 import LoremIpsum from './LoremIpsum'
 
 const Popup = ({ handleClose, show }) => {
@@ -8,7 +8,8 @@ const Popup = ({ handleClose, show }) => {
     <div className={showHideClassName}>
       <section className="modal-main">
         <LoremIpsum />
-        <button onClick={handleClose}>Close</button>
+        <button className="modal-button"
+        onClick={handleClose}>Close</button>
       </section>
     </div>
   )
