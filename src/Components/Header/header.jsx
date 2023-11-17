@@ -3,7 +3,7 @@ import './header.css'
 function Header() {
   return (
     <div className="header">
-      <h1>Les Plantes Vertes de Couleur Verte</h1>
+      <h1>L'amical des plantes vertes de couleur verte</h1>
     </div>
   )
 }

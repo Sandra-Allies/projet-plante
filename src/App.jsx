@@ -8,7 +8,11 @@ function App() {
     <div className="App">
       <Header />
       <Form />
+      <div className="plantList">
       <PlantList />
+      <PlantList />
+      <PlantList />
+      </div>
     </div>
   )
 }
