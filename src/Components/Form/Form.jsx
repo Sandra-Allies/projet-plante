@@ -49,7 +49,7 @@ const Form = () => {
           <input className="formulaire-check"
             name="rules" type="checkbox" />
           <label htmlFor="rules">
-            <a onClick={handleCheckboxClick}>Rules</a>
+            <a onClick={handleCheckboxClick}>Conditions d'utilisation</a>
           </label>
         </div>
         <button type="submit">S'inscrire</button>
