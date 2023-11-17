@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  margin-left: 15em;
+  margin-right: 15em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  max-width: 500px;
+  align-items: center;
+}
+.inputs {
+  margin-bottom: 0.5em;
+}
+#checkBoxBlock {
+  display: flex;
+  flex-direction: column;
+
+}
+.checkB {
+  margin-bottom: 0.5em;
+}
+
