@@ -2,10 +2,11 @@
 .plantList {
 
   &-container {
-    width: calc(30% - 10px);
-    height: auto;
+    width: calc(33% - 30px);
+    height: 500px;
     position: relative;
     display: flex;
+    justify-content: center;
 
   }
 
@@ -16,7 +17,6 @@
     border-radius: 10px;
     position: absolute;
     border: black solid 2px;
-    left: 25%;
     z-index: 10;
     overflow: hidden;
 
